@@ -124,7 +124,7 @@
     if (engine.gameOver) {
       statusEl.textContent = engine.result.length > 12 ? 'Game over' : engine.result;
     } else if (engine.turn === WHITE) {
-      statusEl.textContent = engine.isInCheck(WHITE) ? 'Check!' : 'Your turn';
+      statusEl.textContent = engine.isInCheck(WHITE) ? 'Check!' : '';
     } else {
       statusEl.textContent = '...';
     }
