@@ -53,11 +53,11 @@ body {
 }
 
 .mini-square.light {
-  background: #fff;
+  background: #f0f0f0;
 }
 
 .mini-square.dark {
-  background: #333;
+  background: #c0c0c0;
 }
 
 .mini-square.selected {
@@ -98,8 +98,9 @@ body {
 }
 
 .mini-piece.black {
-  color: #fff;
-  text-shadow: 0 0 1px #000;
+  color: #000;
+  -webkit-text-fill-color: #000;
+  text-shadow: none;
 }
 
 #mini-status {
